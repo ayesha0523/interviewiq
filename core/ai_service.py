@@ -21,3 +21,11 @@ def evaluate_answer(question, user_answer):
     score = 8.5
     feedback = "Good structure and relevant technical knowledge, but try to add more specific examples."
     return {"score": score, "feedback": feedback}
+def convert_speech_to_text(audio_file):
+    # Yahan Speech-to-Text API (jaise OpenAI Whisper ya Google Speech API) ka code aayega
+    # Abhi ke liye testing ke liye dummy text return kar rahe hain
+    extracted_text = "This is a dummy converted text from user's voice audio."
+    return extracted_text
+def convert_speech_to_text(audio_file):
+    extracted_text = "This is a dummy converted text from user's voice audio."
+    return extracted_text
